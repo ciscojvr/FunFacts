@@ -52,6 +52,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WW1-7W-wEz"/>
                     </view>
+                    <connections>
+                        <outlet property="funFactButton" destination="5iZ-NO-yRW" id="Fmb-JF-zlB"/>
+                        <outlet property="funFactLabel" destination="hJW-pr-QCF" id="2iJ-1Y-JDc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
