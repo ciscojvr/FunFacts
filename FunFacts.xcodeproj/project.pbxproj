@@ -16,6 +16,7 @@
 		74101C9023B85E7D0062945D /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74101C8F23B85E7D0062945D /* FunFactsTests.swift */; };
 		74101C9B23B85E7E0062945D /* FunFactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74101C9A23B85E7E0062945D /* FunFactsUITests.swift */; };
 		74101CA923B85FA60062945D /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74101CA823B85FA60062945D /* FactProvider.swift */; };
+		7488CDEE23BA985C003041BE /* BackgroundColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488CDED23BA985C003041BE /* BackgroundColorProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		74101C9A23B85E7E0062945D /* FunFactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsUITests.swift; sourceTree = "<group>"; };
 		74101C9C23B85E7E0062945D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74101CA823B85FA60062945D /* FactProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
+		7488CDED23BA985C003041BE /* BackgroundColorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColorProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				74101C7823B85E7D0062945D /* AppDelegate.swift */,
 				74101C7A23B85E7D0062945D /* SceneDelegate.swift */,
 				74101C7C23B85E7D0062945D /* ViewController.swift */,
+				7488CDED23BA985C003041BE /* BackgroundColorProvider.swift */,
 				74101CA823B85FA60062945D /* FactProvider.swift */,
 				74101C7E23B85E7D0062945D /* Main.storyboard */,
 				74101C8123B85E7D0062945D /* Assets.xcassets */,
@@ -264,6 +267,7 @@
 			files = (
 				74101C7D23B85E7D0062945D /* ViewController.swift in Sources */,
 				74101C7923B85E7D0062945D /* AppDelegate.swift in Sources */,
+				7488CDEE23BA985C003041BE /* BackgroundColorProvider.swift in Sources */,
 				74101CA923B85FA60062945D /* FactProvider.swift in Sources */,
 				74101C7B23B85E7D0062945D /* SceneDelegate.swift in Sources */,
 			);
