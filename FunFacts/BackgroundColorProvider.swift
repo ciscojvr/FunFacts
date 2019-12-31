@@ -24,5 +24,17 @@ struct BackgroundColorProvider {
     func randomColor () -> UIColor {
         let randomNumber = GKRandomSource.sharedRandom().nextInt(upperBound: colors.count)
         return colors[randomNumber]
+        
+        //alternative approach
+//        let randomRed = GKRandomSource.sharedRandom().nextInt(upperBound: 256)
+//        let randomRedColor = CGFloat(randomRed)/255.0
+//
+//        let randomGreen = GKRandomSource.sharedRandom().nextInt(upperBound: 256)
+//        let randomGreenColor = CGFloat(randomGreen)/255.0
+//
+//        let randomBlue = GKRandomSource.sharedRandom().nextInt(upperBound: 256)
+//        let randomBlueColor = CGFloat(randomBlue)/255.0
+//
+//        return UIColor(red: randomRedColor, green: randomGreenColor, blue: randomBlueColor, alpha: 1.0)
     }
 }
